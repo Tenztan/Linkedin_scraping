@@ -14,8 +14,10 @@ The repository includes two scripts:
 1. **Script 1: LinkedIn API**
    - This script utilizes the LinkedIn API to search for users based on the provided first and last name.
    - It retrieves data for the first 10 search results and saves details of the first 10 relevant users in a CSV file.
+   - Extra feature Login attempt's to not get detected for bot activity and getpass to secure your password API 
 
 2. **Script 2: Browser Automation with Selenium**
    - This script automates a web browser using Selenium to navigate to LinkedIn's search page.
    - It searches for users based on the provided first and last name, retrieves data for the first 10 search results, and saves it to a CSV file.
+   - Extra feature fake_useragent to bypass bot detection
 
